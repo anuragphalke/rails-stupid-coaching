@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card shadow-lg">
+        <div class="card-body">
+          <h5 class="card-title text-primary">You asked:</h5>
+          <p class="card-text"><%= @question %></p>
+
+          <h5 class="card-title text-success">The coach answered</h5>
+          <p class="card-text"><%= @answer %></p>
+
+          <%= link_to "← Back", ask_path, class: "btn btn-secondary btn-lg w-100" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
